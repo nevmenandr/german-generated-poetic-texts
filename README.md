@@ -16,16 +16,16 @@ Ten samples of 30,000 characters in length were generated for each model and are
 
 ## Neural network architecture
 
-Models were trained with code developed by Andrej Karpathy for [character-based multi-layer Recurrent Neural Networks](https://github.com/karpathy/char-rnn) (LSTM) in Torch.
+Models were trained with the code developed by Andrej Karpathy for [character-based multi-layer Recurrent Neural Networks](https://github.com/karpathy/char-rnn) (LSTM) in Torch.
 
 ## Train samples
 
-| Model | Characters | Lines |
+| Train corpus | Characters | Lines |
 | ----- | ---------- | ----- |
 | Hölderlin | 415,516 | 10,677|
-| Fontane | | |
-| Celan | | |
-| hexameter | | |
+| Fontane | 365,360 | 10,327 |
+| Celan | 267,521 | 9,757 |
+
 
 Hölderlin's poems were crawled from [this web site](http://www.zeno.org/nid/20005102952).
 
@@ -40,15 +40,15 @@ Ten samples with different temperatures were generated for each model. For an ex
 | Train | Epoch | Loss | Temperature |
 | ----- | ----- | ---- | ----------- |
 | Hölderlin | 43.75 | 1.3026 | [0.1](holderlin/holderlin_e43_t0.1.txt) |
-| Hölderlin | 46.30 | 1.5115 | [0.2](holderlin/holderlin_e43_t0.2.txt) |
-| Hölderlin | 46.30 | 1.5115 | [0.3](holderlin/holderlin_e43_t0.3.txt) |
-| Hölderlin | 46.30 | 1.5115 | [0.4](holderlin/holderlin_e43_t0.4.txt) |
-| Hölderlin | 46.30 | 1.5115 | [0.5](holderlin/holderlin_e43_t0.5.txt) |
-| Hölderlin | 46.30 | 1.5115 | [0.6](holderlin/holderlin_e43_t0.6.txt) |
-| Hölderlin | 46.30 | 1.5115 | [0.7](holderlin/holderlin_e43_t0.7.txt) |
-| Hölderlin | 46.30 | 1.5115 | [0.8](holderlin/holderlin_e43_t0.8.txt) |
-| Hölderlin | 46.30 | 1.5115 | [0.9](holderlin/holderlin_e43_t0.9.txt) |
-| Hölderlin | 46.30 | 1.5115 | [1.0](holderlin/holderlin_e43_t1.txt) |
+| Hölderlin | 43.75 | 1.3026 | [0.2](holderlin/holderlin_e43_t0.2.txt) |
+| Hölderlin | 43.75 | 1.3026 | [0.3](holderlin/holderlin_e43_t0.3.txt) |
+| Hölderlin | 43.75 | 1.3026 | [0.4](holderlin/holderlin_e43_t0.4.txt) |
+| Hölderlin | 43.75 | 1.3026 | [0.5](holderlin/holderlin_e43_t0.5.txt) |
+| Hölderlin | 43.75 | 1.3026 | [0.6](holderlin/holderlin_e43_t0.6.txt) |
+| Hölderlin | 43.75 | 1.3026 | [0.7](holderlin/holderlin_e43_t0.7.txt) |
+| Hölderlin | 43.75 | 1.3026 | [0.8](holderlin/holderlin_e43_t0.8.txt) |
+| Hölderlin | 43.75 | 1.3026 | [0.9](holderlin/holderlin_e43_t0.9.txt) |
+| Hölderlin | 43.75 | 1.3026 | [1.0](holderlin/holderlin_e43_t1.txt) |
 | Hölderlin | 50.00 | 1.3049 | [0.1](holderlin/holderlin_e50_t0.1.txt) |
 | Hölderlin | 50.00 | 1.3049 | [0.2](holderlin/holderlin_e50_t0.2.txt) |
 | Hölderlin | 50.00 | 1.3049 | [0.3](holderlin/holderlin_e50_t0.3.txt) |
@@ -89,36 +89,36 @@ Ten samples with different temperatures were generated for each model. For an ex
 | Celan | 46.30 | 1.5115 | [0.8](celan/celan_t0.8.txt) |
 | Celan | 46.30 | 1.5115 | [0.9](celan/celan_t0.9.txt) |
 | Celan | 46.30 | 1.5115 | [1.0](celan/celan_t1.txt) |
-| hexameter | 14.34 | 1.3988 | [0.1](hex/) |
-| hexameter | 14.34 | 1.3988 | [0.2](#) |
-| hexameter | 14.34 | 1.3988 | [0.3](#) |
-| hexameter | 14.34 | 1.3988 | [0.4](#) |
-| hexameter | 14.34 | 1.3988 | [0.5](#) |
-| hexameter | 14.34 | 1.3988 | [0.6](#) |
-| hexameter | 14.34 | 1.3988 | [0.7](#) |
-| hexameter | 14.34 | 1.3988 | [0.8](#) |
-| hexameter | 14.34 | 1.3988 | [0.9](#) |
-| hexameter | 14.34 | 1.3988 | [1.0](#) |
-| hexameter | 43.01 | 1.3479 | [0.1](#) |
-| hexameter | 43.01 | 1.3479 | [0.2](#) |
-| hexameter | 43.01 | 1.3479 | [0.3](#) |
-| hexameter | 43.01 | 1.3479 | [0.4](#) |
-| hexameter | 43.01 | 1.3479 | [0.5](#) |
-| hexameter | 43.01 | 1.3479 | [0.6](#) |
-| hexameter | 43.01 | 1.3479 | [0.7](#) |
-| hexameter | 43.01 | 1.3479 | [0.8](#) |
-| hexameter | 43.01 | 1.3479 | [0.9](#) |
-| hexameter | 43.01 | 1.3479 | [1.0](#) |
-| hexameter | 80.00 | 1.3702 | [0.1](#) |
-| hexameter | 80.00 | 1.3702 | [0.2](#) |
-| hexameter | 80.00 | 1.3702 | [0.3](#) |
-| hexameter | 80.00 | 1.3702 | [0.4](#) |
-| hexameter | 80.00 | 1.3702 | [0.5](#) |
-| hexameter | 80.00 | 1.3702 | [0.6](#) |
-| hexameter | 80.00 | 1.3702 | [0.7](#) |
-| hexameter | 80.00 | 1.3702 | [0.8](#) |
-| hexameter | 80.00 | 1.3702 | [0.9](#) |
-| hexameter | 80.00 | 1.3702 | [1.0](#) |
+| hexameter | 14.34 | 1.3988 | [0.1](hex/hexameter_e14_t0.1.txt) |
+| hexameter | 14.34 | 1.3988 | [0.2](hex/hexameter_e14_t0.2.txt) |
+| hexameter | 14.34 | 1.3988 | [0.3](hex/hexameter_e14_t0.3.txt) |
+| hexameter | 14.34 | 1.3988 | [0.4](hex/hexameter_e14_t0.4.txt) |
+| hexameter | 14.34 | 1.3988 | [0.5](hex/hexameter_e14_t0.5.txt) |
+| hexameter | 14.34 | 1.3988 | [0.6](hex/hexameter_e14_t0.6.txt) |
+| hexameter | 14.34 | 1.3988 | [0.7](hex/hexameter_e14_t0.7.txt) |
+| hexameter | 14.34 | 1.3988 | [0.8](hex/hexameter_e14_t0.8.txt) |
+| hexameter | 14.34 | 1.3988 | [0.9](hex/hexameter_e14_t0.9.txt) |
+| hexameter | 14.34 | 1.3988 | [1.0](hex/hexameter_e14_t1.txt) |
+| hexameter | 43.01 | 1.3479 | [0.1](hex/hexameter_e43_t0.1.txt) |
+| hexameter | 43.01 | 1.3479 | [0.2](hex/hexameter_e43_t0.2.txt) |
+| hexameter | 43.01 | 1.3479 | [0.3](hex/hexameter_e43_t0.3.txt) |
+| hexameter | 43.01 | 1.3479 | [0.4](hex/hexameter_e43_t0.4.txt) |
+| hexameter | 43.01 | 1.3479 | [0.5](hex/hexameter_e43_t0.5.txt) |
+| hexameter | 43.01 | 1.3479 | [0.6](hex/hexameter_e43_t0.6.txt) |
+| hexameter | 43.01 | 1.3479 | [0.7](hex/hexameter_e43_t0.7.txt) |
+| hexameter | 43.01 | 1.3479 | [0.8](hex/hexameter_e43_t0.8.txt) |
+| hexameter | 43.01 | 1.3479 | [0.9](hex/hexameter_e43_t0.9.txt) |
+| hexameter | 43.01 | 1.3479 | [1.0](hex/hexameter_e43_t1.txt) |
+| hexameter | 80.00 | 1.3702 | [0.1](hex/hexameter_e80_t0.1.txt) |
+| hexameter | 80.00 | 1.3702 | [0.2](hex/hexameter_e80_t0.2.txt) |
+| hexameter | 80.00 | 1.3702 | [0.3](hex/hexameter_e80_t0.3.txt) |
+| hexameter | 80.00 | 1.3702 | [0.4](hex/hexameter_e80_t0.4.txt) |
+| hexameter | 80.00 | 1.3702 | [0.5](hex/hexameter_e80_t0.5.txt) |
+| hexameter | 80.00 | 1.3702 | [0.6](hex/hexameter_e80_t0.6.txt) |
+| hexameter | 80.00 | 1.3702 | [0.7](hex/hexameter_e80_t0.7.txt) |
+| hexameter | 80.00 | 1.3702 | [0.8](hex/hexameter_e80_t0.8.txt) |
+| hexameter | 80.00 | 1.3702 | [0.9](hex/hexameter_e80_t0.9.txt) |
+| hexameter | 80.00 | 1.3702 | [1.0](hex/hexameter_e80_t1.txt) |
 
 ## Papers
 
