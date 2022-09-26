@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/541005966.svg)](https://zenodo.org/badge/latestdoi/541005966)
+
 # German Generated Poetic Texts - GGPT
 
 ## Goal and content
