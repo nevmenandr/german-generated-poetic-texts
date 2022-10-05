@@ -27,13 +27,16 @@ Models were trained with the code developed by Andrej Karpathy for [character-ba
 | Hölderlin | 415,516 | 10,677|
 | Fontane | 365,360 | 10,327 |
 | Celan | 267,521 | 9,757 |
+| Hexameter | 605,627 | 12,516 |
 
 
 Hölderlin's poems were crawled from [this web site](http://www.zeno.org/nid/20005102952).
 
-Celan and hexameter texts provided by Frank Fischer.
+Celan texts provided by Frank Fischer.
 
 221 poems by Fontane provided by Peer Trilcke.
+
+Hexameter lines extracted from [large collection of German verses](https://github.com/tnhaider/DLK) running by Thomas Haider.
 
 ## Data
 
