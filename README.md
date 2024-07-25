@@ -121,7 +121,7 @@ Ten samples with different temperature were generated for each model. For an exp
 | hexameter | 80.00 | 1.3702 | [0.9](hex/hexameter_e80_t0.9.txt) |
 | hexameter | 80.00 | 1.3702 | [1.0](hex/hexameter_e80_t1.txt) |
 
-See also [metadata in CSV format](metatable.csv).
+See also [metadata in TSV format](metatable.csv).
 
 ## Papers
 
