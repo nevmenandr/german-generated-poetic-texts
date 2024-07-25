@@ -145,9 +145,12 @@ If you found this repository useful, please cite it with the URL.
 
 ```
 @misc{orekhovboris2020ggpt,
-    author = {Boris Orekhov},
-    title = {German Generated Poetic Texts},
-    howpublished = {\url{https://github.com/nevmenandr/german-generated-poetic-texts}},
+    author = {Orekhov, Boris},
+    month = sep,
+    title = {{German Generated Poetic Texts - GGPT}},
+    url = {https://github.com/nevmenandr/german-generated-poetic-texts},
     year = {2022}
 }
 ```
+
+
